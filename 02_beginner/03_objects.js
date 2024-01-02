@@ -52,9 +52,28 @@ const users = [
 ]
 
 
-users[1].email
-console. log(money_user);
+// users[1].email
+// console. log(money_user);
 
-console. log(Object.keys (money_user));
-console. log (Object.values (money_user)) ;
-console. log (Object.entries (money_user)) ;
+// console. log(Object.keys (money_user));
+// console. log (Object.values (money_user)) ;
+// console. log (Object.entries (money_user)) ;
+
+// console.log(money_user.hasOwnProperty('isLogged'));
+
+
+
+
+const course = {
+    course_name : "Javascript",
+    price : 2999,
+    courseInstructor : " Dumbledor "
+}
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: Instructor} = course
+
+// console.log(courseInstructor);
+
+console.log(Instructor);
