@@ -64,6 +64,8 @@ const users = [
 
 
 
+// ************************  Destructuring  *************************
+
 const course = {
     course_name : "Javascript",
     price : 2999,
